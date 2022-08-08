@@ -1,0 +1,509 @@
+---
+title: "McKinney Meadow"
+subtitle: "Plant species list and descriptions"
+author: "J. Ted Hillert"
+output: 
+  pdf_document:
+    number_sections: false
+    toc: TRUE
+header-includes:
+   - \usepackage{hyperref}
+   - \hypersetup{
+        colorlinks=true,
+        urlcolor=cyan,
+        linkcolor=cyan
+        }
+    
+    
+bibliography:
+- R-packages.bib
+- aRticles.bib
+
+csl: ecology.csl
+---
+
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo=FALSE,
+                      message=FALSE,
+                      warning=FALSE)
+
+library(papaja)
+library(rsconnect)
+library(packrat)
+library(latex2exp)
+library(tinytex)
+
+papaja::r_refs(file="mckinney.bib")
+
+options(knitr.kable.NA="")
+
+```
+
+\newpage
+
+# *Baptisias australis*
+
+## Common names; Blue false indigo, Blue wild indigo, False indigo, and Wild indigo
+
+```{r bapaus}
+#| fig.cap = "Baptisias australis foliage and young seed pods.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("bapaus.jpg")
+
+```
+
+*Baptisias australis* is an herbaceous perennial plant in the bean family that can grow from 3 to 5 feet tall with showy blue flowers. It prefers full sun but will tolerate shade, however, it will droop and long stems with a few leaves at the terminal end. Indigo blooms from late spring to early summer. Sowing the seeds once they mature will allow this plant to spread otherwise it will slowly spread via rhizomes. If one does not intend to let it spread, the seed pods can be used in decorative flower arrangements. Deer find this plant to be unpalatable, it is also resistant to rabbits, and is not susceptible to pests or disease. Indigo is especially attractive to hummingbirds, butterflies, bees, and other pollinators. In fact it is a larval host to many butterfly species, including; Orange sulfur, Clouded sulfur, Wild indigo duskywing, among others. In 1992, it was selected by the North Carolina Botanical Garden as the North Carolina Wildflower of the Year. In 2010, it was named the Perennial Plant of the Year by the Royal Horticulture Society. [@bap; @bap2]
+
+Further reading;[Baptisia australis (Blue False Indigo, Blue Wild Indigo, False Indigo, Wild Indigo)](https://plants.ces.ncsu.edu/plants/baptisia-australis/), [Baptisia australis (False Indigo)](https://www.gardenia.net/plant/baptisia-australis-false-indigo)
+
+\newpage
+
+# *Carex flava*
+
+## Common names; Yellow sedge and Hedgehog grass
+
+```{r carex}
+#| fig.cap = "Carex flava spiked seed pods.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("carexfla.jpg")
+
+```
+
+*Carex flava* is a widespread perennial sedge native to the northern US, Canada, Iceland, Europe, the Atlas Mountains in Africa, the Transcaucus area, and parts of Siberia. It is an obligate wetland species that prefers high-pH soils in meadows, fields, ridges, ledges, lakes, and shores of ridges. The leaves grow directly from the base of the plant and can be either smooth and hairless or rough and coarse. *Carex flava* can grow between 10-75 cm tall (4-27.5 inches). The boundaries between this species and those of similar appearance are unclear, constituing this sedge as a cryptic species. [@carex; @carex2]
+
+Further reading; [Carex flava (yellow-green sedge)](https://gobotany.nativeplanttrust.org/species/carex/flava/), [Carex flava](https://en.wikipedia.org/w/index.php?title=Carex_flava&oldid=1047981905)
+
+\newpage
+
+# *Erigeron strigosus*
+
+## Common names; Daisy fleabane, Prarie fleabane, Rough fleabane, Fleabane daisy, and Common rough fleabane
+
+```{r erigstr}
+#| fig.cap = "Erigeron strigosus flowers in bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("erigstr.jpg")
+
+```
+
+*Erigeron strigosus* is a perennial, annual, or biennial herb in the Aster family of plants that is native to North America and naturalized in Europe. It can grow to a height of 32 inches, with simple, alternating, and lanceolate (lance-shaped) leaves that can be lobed or unlobed. Fleabane blooms from mid to late spring through most of the summer. Upon blooming each individual plant can grow between 50 and 100 ray florets of white, pink, or blue coloration around a yellow disk. This plant is common in meadows, fields, and other anthropologically disturbed habitats. Interestingly, fleabane was once thought to repel fleas - hence the name - but this has since been disproved. [@erig; @erig2]
+
+Further reading; [Erigeron strigosus (rough fleabane)](https://gobotany.nativeplanttrust.org/species/erigeron/strigosus/), [Erigeron strigosus](http://www.efloras.org/florataxon.aspx?flora_id=1&taxon_id=242416508)
+
+\newpage
+
+# *Eryngium yuccifolium*
+
+## Common names; Bear's grass, Beargrass, Button snakeroot, Rattlesnake master
+
+```{r erynyucc}
+#| fig.cap = "Eryngium yuccifolium upper foliage.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("erynyucc.jpg")
+
+```
+
+*Eryngium yuccifolium* is a perennial forb growing from a crom-like crown with long, narrow, fibrous leaves with parallel venation that are organized in a rosette. This presentation of leaves is reminiscent of the yucca plant, thus the name, yuccifolium, meaning yucca-like leaves. Despite appearances, this plant is a member of the carrot family, evident by the aroma that is released when the leaves get damaged. The aroma of Rattlesnake master is because it shares many compounds and other secondary compounds found in carrots, parsley and parsnips. Depending on latitude, this plant blooms from May to August displaying greenish-white florets mingled with pointed bracts and clustered in globular heads. Monarch butterflies, skippers, and other butterflies visit this plant for nectar, while soldier beetles visit to eat the pollen. When pollinated this plant can be an aggressive self-seeder, however seedlings rarely flower before their third year. [@eryn; @eryn2]
+
+Further reading; [Rattlesnake Master](https://www.fs.fed.us/wildflowers/plant-of-the-week/Eryngium-yuccifolium.shtml), [Eryngium yuccifolium (Rattlesnake master)](https://www.wildflower.org/plants/result.php?id_plant=ERYU)
+
+\newpage
+
+# *Eutrochium purpureum*
+
+## Common names; Purple Joepyeweed, Sweet-scented Joepyeweed, Kidney wort, Trumpet weed, among many others
+
+```{r eutpur}
+#| fig.cap = "Eutrochium purpureum prior to blooming",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("eutpur.jpg")
+
+```
+
+*Eutrochium purpureum* is an herbaceous perennial plant native to eastern and central North America in the Aster family. It is an ornamentally spectacular plant when blooming, famed for its vanilla-scented purple-pink flowers that grow in domed clusters from 12-18 inches across. The blossoms are a valuable food source for bees, butterflies, and other pollinators. Following flowering the mature seed heads persist through the winter, providing a source of food for birds. [@eutr; @eutr2]
+
+Further reading; [Eutrochium purpureum (Purple joepyeweed)](https://www.wildflower.org/plants/result.php?id_plant=eupu21), [Eutrochium purpureum (Sweet-Scented Joe-Pye Weed)](https://www.gardenia.net/plant/eutrochium-purpureum)
+
+\newpage
+
+# *Heliopsis helianthiodes*
+
+## Common names; Early sunflower, Early ox-eye, False sunflower, Oxeye sunflower, Smooth oxeye, Rough oxeye
+
+```{r verbhel}
+#| fig.cap = "Heliopsis helianthiodes in bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("helhel.jpg")
+
+```
+
+*Heliopsis helianthiodes* is an herbaceous perennial flower in the Aster family that is native to eastern and central North America. It is similar to the genus Helianthus (sunflowers), however, the flowers are smaller and its ray florets persist longer than sunflowers. The stiff branched stems of false sunflower can grow between 3 and 5 feet tall with oppositely arranged lanceolate to ovate leaves with serrate margins. The flowers bloom from May to October, presenting with yellow-orange ray flowers that are attractive to bees, butterflies, and other pollinators. *H. helianthiodes* is easily grown as a showy garden perennial, even in dry sites or areas with high concentrations of clay in the soil. [@helhel; @helhel2; @helhel3]
+
+Further reading; [Heliopsis helianthoides (Smooth oxeye)](https://www.wildflower.org/plants/result.php?id_plant=HEHE5), [Heliopsis helianthoides (Early Sunflower, Eastern Ox-eye, Eastern Sunflower-everlasting, False Sunflower, Heliopsis, Ox-eye, Oxeye Sunflower, Smooth Oxeye)](https://plants.ces.ncsu.edu/plants/heliopsis-helianthoides/), [Heliopsis helianthoides](https://en.wikipedia.org/w/index.php?title=Heliopsis_helianthoides&oldid=1090682627)
+
+\newpage
+
+# *Leucanthemum vulgare*
+
+## Common names; Oxeye daisy, Marguerite daisy, Dog daisy
+
+```{r leuvul}
+#| fig.cap = "Blooming Leucanthemum vulgare flower.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("leuvul.jpg")
+
+```
+
+*Leucanthemum vulgare* is a widespread herbaceous perennial wildflower native to Europe and naturalized in disturbed habitats across North America. This daisy can grow at least 2 feet tall, with a hairy stem, and the largest leaves at the base of the plant. The leaves can have lobes, serrations, or both, but as they rise from the base they decrease in size, lose the petiole, and become deeply serrated. Although naturalized to many parts of the world, it is considered an invasive noxious weed in over 40 countries. This plants spreads via seeds that can remain viable for almost 40 years. It is difficult to eradicate as the plant can resprout from rhizome fragments. It is also unpalatable to cattle, allowing it to spread and reduce grazing land in the process. [@leuc; @leuc2]
+
+Further reading; [Leucanthemum vulgare (Marguerite, Ox-eye Daisy)](https://plants.ces.ncsu.edu/plants/leucanthemum-vulgare/), [Leucanthemum vulgare](https://en.wikipedia.org/w/index.php?title=Leucanthemum_vulgare&oldid=1077100813)
+
+\newpage
+
+# *Liatris pycnostachya*
+
+## Common names; Prairie blazing star, Cattail blazing star, Kansas blazing star, Hairy button-snakeroot
+
+```{r liapyc}
+#| fig.cap = "Flower stalk of Liastris pycnostachya (top), leafy stem of the same plant (bottom).",
+#| out.width = "45%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("liapyc1.jpg")
+
+knitr::include_graphics("liapyc2.jpg")
+
+```
+
+*Liatris pycnostachya* is an herbaceous perennial plant native to prairies and open rocky bluffs of the eastern US. This plant generally grows between 2 and 5 feet tall with nearly half made up of cylindrical stalk-like flowers that are densely crowded above the coarse, hairy, leafy stem. The leaves are linear and grass-like, longer at the base and smaller as they rise up the stem. The flowers bloom from the top down in pink to deep purple blooms, each with 5-8 florets. Prairie blazing star is attractive to birds, hummingbirds, and butterflies. It also acts as a larval host to the bleeding flower moth. [@liat; @liat2]
+
+Further reading; [Liatris pycnostachya (Prairie blazing star)](https://www.wildflower.org/plants/result.php?id_plant=LIPY), [Liatris pycnostachya](https://en.wikipedia.org/w/index.php?title=Liatris_pycnostachya&oldid=1086254150)
+
+\newpage
+
+# *Liatris sticata*
+
+## Common names; Blazing star, Dense blazing star, Marsh blazing star, Dense button snakeroot, Prarie feather
+
+```{r liapyc}
+#| fig.cap = "Flower stalk of Liastris spicata (top), leafy stem of the same plant (bottom).",
+#| out.width = "45%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("liapyc1.jpg")
+
+knitr::include_graphics("liapyc2.jpg")
+
+```
+
+*Liatris spicata* is an herbaceous perennial plant from the Aster family that is native to moist prairies and sedge meadows of the eastern North America. This plant generally grows between 1 and 5 feet tall with 6 to 12 inches made up of cylindrical stalk-like flowers that are densely crowded above a smooth, slightly hairy, leafy stem. The leaves are linear and grass-like, longer at the base and smaller as they rise up the stem. The flowers bloom from the top down in pink, purple/lavender, red/burgundy, or white blooms, each with 7-20 ray petals. Marsh blazing star is attractive to bees, butterflies, hummingbirds, songbirds, moths, and specialized bees. It also acts as a larval host to the Liatris flower moth (*Schinia sanguinea*) and Liatris borer moth (*Carmenta anthracipennis*). [@liat3; @liat4]
+
+Further reading; [Liatris pycnostachya (Blazing star...)](https://plants.ces.ncsu.edu/plants/liatris-spicata/), [Liatris spicata](https://en.wikipedia.org/wiki/Liatris_spicata)
+
+\newpage
+
+# *Monarda fistulosa*
+
+## Common names; Wild bergamont, Beebalm, Eastern bergamont
+
+```{r monfist}
+#| fig.cap = "Monarda fistula flower in bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("monfist.jpg")
+
+```
+
+*Monarda fistulosa* is a widespread herbaceous perennial wildflower in the mint family that is native to southern Canada, east of the Rockies, and as far south to Veracruz in eastern Mexico. It's native habitats include; dry open woods, fields, wet meadows, ditches, edges of forests, and marshes. This plant often grows between 2 and 4 feet tall with oblong, oppositely arranged leaves with dentate margins. The leaves can be boiled for tea, used as a seasoning, or chewed either raw or dried. The flowers bloom from May to September in clusters of pink, white, or purple that resemble ragged pompoms. The genus of this plant was named after 16th century botanist and physician Nicolas Bautista Monardez. [@mona; @mona2]
+
+Further reading; [Monarda fistulosa (Wild bergamot)](https://www.wildflower.org/plants/result.php?id_plant=mofi), [Monarda fistulosa (Bee Balm, Eastern Bergamot, Wild Bergamot)](https://plants.ces.ncsu.edu/plants/monarda-fistulosa/)
+
+\newpage
+
+# *Parthenium integrifolium*
+
+## Common names; Wild quinine, American feverfew, Eastern feverfew, Prairie dock
+
+```{r parint}
+#| fig.cap = "Wild quinine in bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("parint.jpg")
+
+```
+
+*Parthenium integrifolium* is an herbaceous perennial flower in the Aster family that is native to eastern and mid-western US. The leaves vary in size but grow in ovaloid to lanceolate-shaped with serrate or lobed edges. The flat-topped white flower clusters resemble small pearls from afar. The bloom period between June and September make this plant one of the longest blooming perennials. In late fall the flowers will turn brown to black and the plant itself will retain is structure into winter. Wild quinine has a mild medicinal aroma and makes an excellent addition to fresh cut or dried floral arrangements. Medicinal uses of the leaves by the Catawba peoples include; a poultice made from the leaves to treat burns, ashes were applied to horses with sore backs, and the roots were brewed into a tea to treat dysentery. During WWI, it was used to treat malaria in place of Cinchona tree bark. [@part; @part2]
+
+Further reading; [Parthenium integrifolium (Wild Quinine)](https://www.gardenia.net/plant/parthenium-integrifolium), [Parthenium integrifolium](https://en.wikipedia.org/w/index.php?title=Parthenium_integrifolium&oldid=1090009815)
+
+\newpage
+
+# *Picea rubens*
+
+## Common names; Red spruce, West Virginia spruce, Eastern spruce, He-balsam, Pocono, Yellow spruce
+
+```{r picrub}
+#| fig.cap = "Young Picea rubens sapling with young cones.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("picrub.jpg")
+
+```
+
+*Picea rubens* is a late-successional, shade-tolerant, coniferous tree that can grow between 59 and 131 feet tall with a trunk diameter of 2 feet at breast height. The needles grow directly from the branches. They are yellow-green in coloration, are four-sided, curved, and come to a fine point. These are slow-growing trees that can live at least 250 years and upwards of 450 years. It is commonly found in the highest peaks of the Blue Ridge Parkway in North Carolina and West Virginia. Its distribution increases in the northeastern US. The needles and seeds are an important food source for a variety of wildlife and it is attractive to butterflies, small mammals, and songbirds. The wood is highly sought after for musical instruments, including; guitars, organ pipes, piano sounding boards, and violin bellies. Medicinally it can be used as a remedy for scurvy by fermenting a tincture from the needles, molasses, and honey or maple syrup. [@pice; @pice2]
+
+Further reading; [Picea rubens (Red spruce)](https://www.wildflower.org/plants/result.php?id_plant=piru), [Picea rubens (Eastern Spruce, He Balsam, Pocono, Red Spruce, West Virginia Spruce, Yellow Spruce)](https://plants.ces.ncsu.edu/plants/picea-rubens/)
+
+\newpage
+
+# *Pycnanthemum incanum*
+
+## Common names; Hoary mountainmint, Mountain mint, Silverleaf mountain-mint, Wild basil, Hoary basil
+
+```{r pycinc}
+#| fig.cap = "Pycnanthemum incanum beginning to bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("pycinc.jpg")
+
+```
+
+*Pycnanthemum incanum* is an herbaceous perennial flower in the mint family that is widespread across the eastern US to Ontario, Canada. The leaves of mountain mint are serrate with a greenish-white tops that are oppositely arranged. This plant can grow to about 3 feet tall with erect, hairy, square stems that terminate in clusters of flowers composed of numerous small, two-lipped corollas (petals and reproductive organs). The flowers present in white or lilac coloration with purple spots. It blooms in midsummer until early fall. The flowers are attractive to various types of bees, butterflies, moths, and some species of wasps. Medicinally, mountain mint contains tannins that constrict body tissues and can be used to treat headaches either by drinking as a tea or pouring over ones head. Wet and crushed leaves can be put into the nostrils to stop nosebleeds. [@pycn; @pycn2]
+
+Further reading; [Pycnanthemum incanum (Hoary Mountainmint, Hoary Mountain Mint, Hoary Mountain-mint, Mountain Mint, Silverleaf Mountain-mint)](https://plants.ces.ncsu.edu/plants/pycnanthemum-incanum/), [Pycnanthemum incanum (Hoary mountain mint)](https://www.wildflower.org/plants/result.php?id_plant=PYIN)
+
+\newpage
+
+# *Ratibidia pinnata*
+
+## Common names; Yellow coneflower, Pinnate praire coneflower, Grayhead coneflower, Praire coneflower, Grayhead Mexican hat
+
+```{r ratpi}
+#| fig.cap = "Yellow coneflowers in a range of blooms.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("ratpi.jpg")
+
+```
+
+*Ratibidia pinnata* is an herbaceous perennial flower in the Aster family. It is native to central and eastern US, and Ontario, Canada. The leaves are lobed and lanceolate or ovate in shape on a hairy stem. The lower leaves seperate into leaflets while the upper leaves do not and are smaller in size. The flowers bloom from May to September with drooping yellow rays around a rounded to ellipsoid gray central disk that turns brown upon maturity. Each individual flower can grow up to 15 ray florets with 200 or more disk florets. The disk florets release an anise-like aroma when damaged or bruised. [@rati; @rati2]
+
+Further reading; [Ratibida pinnata (Grayhead coneflower)](https://www.wildflower.org/plants/result.php?id_plant=RAPI), [Ratibida pinnata](https://en.wikipedia.org/w/index.php?title=Ratibida_pinnata&oldid=1020453450)
+
+\newpage
+
+# *Rosa multiflora*
+
+## Common names; Multiflora rose, Baby rose, Japanese rose, Rambler rose, Eijitsu rose, Many-flowered rose, Seven-sister rose
+
+```{r multirose}
+#| fig.cap = "Multiflora rose blossoms (Photo courtesy of Wikipedia).",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("multirose.jpg")
+
+``` 
+
+```{r multiswamp}
+#| fig.cap = "Native swamp rose vs. Invasive multiflora rose. (Photos courtesy of G.D. Bebeau (top) and Chris Evans, University of Illinois (bottom)",
+#| fig.align="center"
+
+knitr::include_graphics("multiswamp.jpg")
+
+```
+
+*Rosa multiflora* is a non-native, invasive species of rose that was introduced to North America from eastern Asia. In the 1930s, it was planted throughout the US under the encouragement of the USDA Soil Conservation Service as a means of erosion control, wildlife habitat, and as a natural barrier to farm animals. By the 1960s, conservationists warned of the dangers of unmanaged multiflora rose, but it continued to be used as a food source for birds, as cover for wildlife, and in highway medians.
+This invasive species is a climbing shrub that can grow 10 to 15 feet. The leaves are alternate and composed of 5 to 11 compound leaflets with serrate margins and a pointed-ovate shape. This invasive rose is distinguishable from the native swamp rose due to their white colored flowers vs. the native pink flowers. It is more readily distinguishable by looking at eh stipules of either plant; the invasive will be feathered where the leaves branch, while the native will have smooth stipules (see Figure 15 or 17).
+
+Author's note on invasive species...
+Invasive plants are detrimental to an area due to their ability to spread rapidly thereby crowding out other plants and potentially becoming a monoculture plot. Qualities that make invasive species so successful include; higher seed production that can remain viable for several years in the seed bank and many are monoecious (meaning male and female reproductive organs) allowing asexual reproduction. Invasive plants are readily able to re-sprout from cut or damaged stems. Another quality that proves detrimental involves their leaves and fruits, both of which bloom earlier and for a longer period than native plants. In the case of multiflora rose, this invasive shrub produces dense thorny thickets that deter predators further allowing it to grow and spread. [@multi; @multi2]
+
+Further reading; [Rosa multiflora](https://en.wikipedia.org/w/index.php?title=Rosa_multiflora&oldid=1088183196), [Multiflora Rose: An Exotic Invasive Plant Fact Sheet](Multiflora Rose: An Exotic Invasive Plant Fact Sheet)
+
+\newpage
+
+# *Rosa palustris*
+
+## Common names; Swamp rose
+
+```{r swamprose}
+#| fig.cap = "Rosa palustris in bloom (photo courtesy of Wikipedia).",
+#| out.width = "50%",
+#| fig.align = "center"
+
+knitr::include_graphics("swamprose.jpg")
+```
+
+```{r multiswamp2}
+#| fig.cap = "Native swamp rose vs. Invasive multiflora rose. (Photos courtesy of G.D. Bebeau (top) and Chris Evans, University of Illinois (bottom)",
+#| fig.align="center"
+
+knitr::include_graphics("multiswamp.jpg")
+
+```
+
+*Rosa palustris* is a perennial shrub in the Rose family native to much of eastern North America. The leaves are pinnate and compound usually composed of 7 leaflets that are dark green, finely serrate, and pointed at the ends. Swamp rose blooms in late spring to early summer displaying fragrant, singular pink flowers with yellow central stamens. After blooming the flowers fruit into pea-sized red or orange hips. In fall the leaves often change in coloration to various shades of red. Swamp rose is distinguishable from the invasive multiflora rose because of the smooth stipules at the base of the leaves, whereas the invasive has feathered stipules (see Figure 15 or 17). [@rosa; @rosa2]
+
+Further reading; [Rosa palustris (Swamp rose)](https://www.wildflower.org/plants/result.php?id_plant=ropa), [Rosa palustris (Swamp Rose)](https://plants.ces.ncsu.edu/plants/rosa-palustris/)
+
+\newpage
+
+# *Rudbeckia hirta*
+
+## Common names; Black-eyed Susan, Brown-eyed Susan
+
+```{r rudhirt}
+#| fig.cap = "Black-eyed Susan in late bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("rudhirt.jpg")
+
+```
+
+*Rudbeckia hirta* is an herbaceous annual, biennial, or short-lived perennial wildflower native to and widespread in the eastern and central US, and naturalized in China and western US. These plants are stout and erect supporting rough, hairy, lanceolate leaves. If planted in early spring it will bloom in its first year. Otherwise, naturally sown plants will produce a rosette of leaves in the first year and yellow ray florets around a dark chocolate central disk in the second year. Birds readily enjoy the ripe seeds, while bees, butterflies, and other pollinators enjoy feeding on the nectar. [@rudb; @rudb2]
+
+Further reading; [Rudbeckia hirta (Black-Eyed Susan)](https://www.gardenia.net/plant/rudbeckia-hirta), [Rudbeckia hirta (Black-eyed susan)](https://www.wildflower.org/plants/result.php?id_plant=ruhi2)
+
+\newpage
+
+# *Schizachyrium scoparium*
+
+## Common names; Little bluestem, Prairie beardgrass, Popotillo azul
+
+```{r schizsco}
+#| fig.cap = "Grassy floiage of Little bluestem.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("schizsco.jpg")
+
+```
+
+*Schizachyrium scoparium* is a perennial bunchgrass native to most of the US that grows upright in a roundish mound of flat linear leaves with a blue-green coloration at the base. By September, the leaves turn a rich mahogany-red that persists through the winter. Bluestem blooms from June to October producing purple-bronze racemes that arise from the center clump of leaves. The fruit can be yellow-gold to purple-lavender and provide food for birds and small mammals from July to November. It is also attractive to butterflies, songbirds, small mammals, and other pollinators. *S. scoparium* is the larval host to various skipper species and the Common wood-nymph butterfly, which feeds on the nectar and rotting fruit. [@schi; @schi2; @schi3]
+
+Further reading; [Schizachyrium scoparium (Little Bluestem, Prairie Beardgrass, Prairie Beard Grass)](https://plants.ces.ncsu.edu/plants/schizachyrium-scoparium/), [Schizachyrium scoparium (Little bluestem)](https://www.wildflower.org/plants/result.php?id_plant=SCSC), [Schizachyrium scoparium](https://en.wikipedia.org/w/index.php?title=Schizachyrium_scoparium&oldid=1094182873)
+
+\newpage
+
+# *Senna hebecarpa*
+
+## Common names; American senna, Wild senna
+
+```{r senna}
+#| fig.cap = "Foliage of Senna hebecarpa with some yet-to-bloom flowers.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("senna.jpg")
+
+```
+
+*Senna hebecarpa* is an herbaceous perennial plant in the Pea family that is native to the southeastern US to the southern Great Lakes. This plant can grow up to 6 feet tall with erect form and alternating, compound leaves composed of 5 to 10 oblong-elliptic leaflets with pointed tips. Wild senna blooms from July to August producing butter yellow, a typical pea-like flowers on a raceme (pedicles on a single stem) or panicle (branching pedicles on a single stem) structure. As the flowers age, the petals pale to a white coloration around mid- to late-summer. This plant acts as a larval host for various sulfur butterfly species. Insects feed on the nectar from glands located at the base of the petioles. Birds enjoy feasting on the seeds, especially, Bobwhite quail. Medicinally, Arabic peoples brewed the leaves to make a cathartic tea in the 9th century. The Cherokee used the roots to treat high fevers, as a worm remedy, to treat fainting spells, and to treat pneumonia. Today the leaves and seeds are used as a natural laxative. [@senn; @senn2]
+
+Further reading; [Senna hebecarpa (American Senna, Wild Senna)](https://plants.ces.ncsu.edu/plants/senna-hebecarpa/), [Senna hebecarpa (American senna)](https://www.wildflower.org/plants/result.php?id_plant=SEHE3)
+
+\newpage
+
+# *Silphium trifoliatum* (Synonym; Silphium asteriscus trifoliatum)
+
+## Common names; Whorled rosinweed, Three-leaved rosinweed
+
+```{r siltri}
+#| fig.cap = "Silphium trifoliatum in bloom and others waiting to bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("siltri.jpg")
+
+```
+
+*Silphium trifoliatum* is an herbaceous perennial wildflower native to the eastern US and is commonly found in praries, river cobble bars, roadsides, and other open disturbed areas. This member of the Aster family blooms from July to September with yellow disk flowers each with 8 to 13 ray florets. Rosinweed usually grows to a height of 6 feet with narrowly ovate, almost sessile (short petiole) leaves in whorls of three or sometimes oppositely arranged. [@silp; @silp2]
+
+Further reading; [US Wildflower - Whorled Rosinweed, Three-leaved Rosinweed - Silphium trifoliatum](https://uswildflowers.com/detail.php?SName=Silphium%20trifoliatum), [Silphium trifoliatum](https://en.wikipedia.org/w/index.php?title=Silphium_trifoliatum&oldid=1090517873)
+
+\newpage
+
+# *Solidago altissima*
+
+## Common names; Tall goldenrod, Late goldenrod, Canadian goldenrod, Shorthair goldenrod
+
+```{r solialt}
+#| fig.cap = "Solidago altissima in full bloom (Photo courtesy of Paul Cooper via NCSU Extension Gardener Plant Toolbox).",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("solalt.jpg")
+
+```
+
+*Solidago altissima* is an herbaceous perennial wildflower native to and widespread across Canada, US, and northern Mexico. It has become naturalized to many parts of the world due to its tolerance to human disturbed habitats. The stems are rough and erect, growing between 2 and 4 feet tall, either singularly or in clusters. The leaves are alternate, linear to lanceolate in shape with pentate or sometimes smooth margins. Late goldenrod is a late blooming flower that produces large conical array of as many as 1500 yellow flowers. This plant produces cysteine and serine protease inhibitors that affect the digestive system of herbivores and slows their growth and reproduction. This plant can also produce allelopathic compounds that inhibit the growth of neighboring plants, potentially making it weedy. *Solidago altissima* is the larval host of the Wavy-lined emerald moth and also supports various specialized bees, butterflies, and flower beetles. [@soli; @soli2; @soli3]
+
+Further reading; [Solidago altissima (Canada Goldenrod, Canadian Goldenrod, Goldenrod, Late Goldenrod, Shorthair Goldenrod, Tall Goldenrod)](https://plants.ces.ncsu.edu/plants/solidago-altissima/), [Solidago altissima (Tall goldenrod)](https://www.wildflower.org/plants/result.php?id_plant=soal6), [Solidago altissima](https://en.wikipedia.org/w/index.php?title=Solidago_altissima&oldid=1031137572)
+
+\newpage
+
+# *Trifolium pratense*
+
+## Common names; Red clover, Broad-leaved clover, Clover grass, Common clover, Cow grass, Pinkies, Purplewort, Suckles, Sugar plum
+
+```{r triprat}
+#| fig.cap = "Trifolium pratense in bloom.",
+#| out.width = "50%",
+#| fig.align = "center",
+#| fig.show="hold"
+
+knitr::include_graphics("triprat.jpg")
+
+```
+
+*Trifolium pratense* is an herbaceous, short-lived perennial in the Bean family that is native to Europe, western Asia, and Northwest Africa, but naturalized to many other parts of the world. Clover is good for both improving soil structure due to its deep taproot and improving soil fertility because of its nitrogen-fixing properties. The leaves and flowers are both edible either cooked or raw. It can be used as a garnish, ground into a flour to make jellies and tissanes, or as an alternative medicine. While red clover is considered invasive, its overall benefits - early blooms for pollinators, nitrogen-fixation, and soil structure improvement - outweigh the competetive effect on non-native turf grasses. [@trif; @trif2]
+
+Further reading; [Trifolium pratense (Cow Grass, Peavine Clover, Purple Clover, Red Clover)](https://plants.ces.ncsu.edu/plants/trifolium-pratense/), [Trifolium pratense](https://en.wikipedia.org/w/index.php?title=Trifolium_pratense&oldid=1096102761)
+
+\newpage
+
+
+# References
+
