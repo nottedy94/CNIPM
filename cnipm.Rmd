@@ -7,14 +7,6 @@ output:
     number_sections: false
     toc: TRUE
 
-header-includes:
-   - \usepackage{hyperref}
-   - \hypersetup{
-        colorlinks=true,
-        urlcolor=green,
-        linkcolor=green
-        }
-    
     
 bibliography:
 - R-packages.bib
@@ -52,12 +44,22 @@ options(knitr.kable.NA="")
 ## Common names; Bishop's goutweed, Bishops' weed, Gout weed, Ground elder, Herb gerard, Snow on the mountain
 
 ```{r aepo}
-#| fig.cap = "Aegopodium podagraria leaves photo and leaf description",
-#| out.width = "45%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| fig.cap = "Aegopodium podagraria leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
 
 knitr::include_graphics("aepo.PNG")
+
+```
+
+\newpage
+
+## *Aegopodium podagraria* continued...
+
+```{r aepo2}
+#| fig.cap = "Aegopodium podagraria leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
 
 knitr::include_graphics("aepoleav.PNG")
 
@@ -73,12 +75,22 @@ Further reading; [@aepo]
 ## Common names; Asian bittersweet, Chinese bittersweet, Oriental bittersweet
 
 ```{r ceor}
-#| fig.cap = "Celastrus orbiculatus leaves photo and leaf description",
-#| out.width = "45%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| fig.cap = "Celastrus orbiculatus leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
 
 knitr::include_graphics("ceor.PNG")
+
+```
+
+\newpage
+
+## *Celastrus orbiculatus* continued...
+
+```{r ceor2}
+#| fig.cap = "Celastrus orbiculatus leaf description.",
+#| out.width = "45%",
+#| fig.align = "center"
 
 knitr::include_graphics("ceorleav.PNG")
 
@@ -93,15 +105,11 @@ Further reading; [@ceor]
 ## Common names; Algerian ivy, Baltic ivy, Branching ivy, California ivy, Common ivy, English ivy, Glacier ivy, Needlepoint ivy, Sweetheart ivy
 
 ```{r hehe}
-#| fig.cap = "Hedera helix leaf description, and stem description.",
-#| out.width = "45%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| fig.cap = "Hedera helix leaves photo.",
+#| out.width = "65%",
+#| fig.align = "center"
 
-
-knitr::include_graphics("heheleav.PNG")
-
-knitr::include_graphics("hehestem.PNG")
+knitr::include_graphics("hehe.PNG")
 
 ```
 
@@ -110,12 +118,24 @@ knitr::include_graphics("hehestem.PNG")
 ## *Hedera Helix* continued...
 
 ```{r hehe2}
-#| fig.cap = "Hedera helix leaves photo, and poisonous characteristics.",
+#| fig.cap = "Hedera helix leaf description.",
 #| out.width = "45%",
 #| fig.align = "center",
 #| fig.show="hold"
-#| 
-knitr::include_graphics("hehe.PNG")
+
+
+knitr::include_graphics("heheleav.PNG")
+
+```
+
+\newpage
+
+## *Hedera Helix* continued...
+
+```{r hehe3}
+#| fig.cap = "Hedera helix poisonous characteristics.",
+#| out.width = "50%",
+#| fig.align = "center"
 
 knitr::include_graphics("hehepois.PNG")
 
@@ -130,12 +150,22 @@ Further reading; [@hehe]
 ## Common names; Amur, Common privet, Curlyleaf ligustrum, Japanese privet, Wax-leaf privet
 
 ```{r lija}
-#| fig.cap = "Ligustrum japonica leaves photo and poisonous characteristics.",
-#| out.width = "45%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| fig.cap = "Ligustrum japonica leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
 
 knitr::include_graphics("lija.PNG")
+
+```
+
+\newpage
+
+## *Ligustrum japonicum* continued...
+
+```{r lija2}
+#| fig.cap = "Ligustrum japonica poisonous characteristics.",
+#| out.width = "80%",
+#| fig.align = "center"
 
 knitr::include_graphics("lijapois.PNG")
 
@@ -145,13 +175,23 @@ knitr::include_graphics("lijapois.PNG")
 
 ## *Ligustrum japonicum* continued...
 
-```{r lija2}
-#| fig.cap = "Ligustrum japonica leaf description and stem description.",
-#| out.width = "45%",
-#| fig.align = "center",
-#| fig.show="hold"
+```{r lija3}
+#| fig.cap = "Ligustrum japonica leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
 
 knitr::include_graphics("lijaleav.PNG")
+
+```
+
+\newpage
+
+## *Ligustrum japonicum* continued...
+
+```{r lija4}
+#| fig.cap = "Ligustrum japonica stem description.",
+#| out.width = "75%",
+#| fig.align = "center"
 
 knitr::include_graphics("lijastem.PNG")
 
@@ -166,12 +206,22 @@ Further reading; [@lija]
 ## Common names; Kudzu, Japanese arrowroot, Kudzu bean, Kudzu hemp, Kudzu vine
 
 ```{r pumo}
-#| fig.cap = "Pueraria montana leaves photo and edibility description of Kudzu.",
-#| out.width="45%",
-#| fig.align="center",
-#| fig.show="hold"
+#| fig.cap = "Pueraria montana leaves photo.",
+#| out.width="75%",
+#| fig.align="center"
 
 knitr::include_graphics("pumo.PNG")
+
+```
+
+\newpage
+
+## *Pueraria montana* and *Pueraria montana var. lobata* continued...
+
+```{r pumo2}
+#| fig.cap = "Edibility description of Kudzu.",
+#| out.width="100%",
+#| fig.align="center"
 
 knitr::include_graphics("pumoedib.PNG")
 
@@ -181,13 +231,23 @@ knitr::include_graphics("pumoedib.PNG")
 
 ## *Pueraria montana* and *Pueraria montana var. lobata* continued...
 
-```{r pumo2}
-#| fig.cap="Pueraria montana leaf description, and Pueraria montana var. lobata leaf and stem descriptions.",
-#| out.width="45%",
-#| fig.align="center",
-#| fig.show="hold"
+```{r pumo3}
+#| fig.cap="Pueraria montana leaf description.",
+#| out.width="55%",
+#| fig.align="center"
 
 knitr::include_graphics("pumoleav.PNG")
+
+```
+
+\newpage
+
+## *Pueraria montana* and *Pueraria montana var. lobata* continued...
+
+```{r pumo4}
+#| fig.cap="Pueraria montana var. lobata leaf and stem descriptions.",
+#| out.width="55%",
+#| fig.align="center"
 
 knitr::include_graphics("pumolo.PNG")
 
@@ -204,9 +264,8 @@ Further reading; [@pumo]
 
 ```{r reja}
 #| fig.cap = "Reynoutria japonica leaves photo.",
-#| out.width = "30%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| out.width = "65%",
+#| fig.align = "center"
 
 knitr::include_graphics("reja.PNG")
 
@@ -217,15 +276,24 @@ knitr::include_graphics("reja.PNG")
 ## *Reynoutria japonica* continued...
 
 ```{r reja2}
-#| fig.cap = "Reynoutria japonica leaf description and stem description.",
-#| out.width = "30%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| fig.cap = "Reynoutria japonica leaf description.",
+#| out.width = "50%",
+#| fig.align = "center"
 
 knitr::include_graphics("rejaleav.PNG")
 
-knitr::include_graphics("rejastem.PNG")
+```
 
+\newpage
+
+## *Reynoutria japonica* continued...
+
+```{r reja3}
+#| fig.cap = "Reynoutria japonica stem description.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("rejastem.PNG")
 
 ```
 
@@ -239,9 +307,8 @@ Further reading; [@reja]
 
 ```{r romu}
 #| fig.cap = "Rosa multiflora stipules photo.",
-#| out.width = "75%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| out.width = "100%",
+#| fig.align = "center"
 
 knitr::include_graphics("romu.PNG")
 
@@ -252,12 +319,21 @@ knitr::include_graphics("romu.PNG")
 ## *Rosa multiflora* continued...
 
 ```{r romu2}
-#| fig.cap = "Rosa multiflora leaf description, and stem description.",
-#| out.width = "45%",
-#| fig.align = "center",
-#| fig.show="hold"
+#| fig.cap = "Rosa multiflora leaf description.",
+#| out.width = "60%",
+#| fig.align = "center"
 
 knitr::include_graphics("romuleav.PNG")
+```
+
+\newpage
+
+## *Rosa multiflora* continued...
+
+```{r romu3}
+#| fig.cap = "Rosa multiflora stem description.",
+#| out.width = "100%",
+#| fig.align = "center"
 
 knitr::include_graphics("romustem.PNG")
 
