@@ -1,7 +1,6 @@
 ---
-title: "CNIPM"
-subtitle: "Invasive Plants Descriptions and Photos"
-author: "J. Ted Hillert"
+title: "Coalition for Non-native Invasive Plant Management"
+subtitle: "Non-native invasive plant descriptions and photos of Western North Carolina"
 output: 
   pdf_document:
     number_sections: false
@@ -48,7 +47,7 @@ options(knitr.kable.NA="")
 #| out.width = "100%",
 #| fig.align = "center"
 
-knitr::include_graphics("aepo.PNG")
+knitr::include_graphics("photos/aepo.PNG")
 
 ```
 
@@ -61,7 +60,7 @@ knitr::include_graphics("aepo.PNG")
 #| out.width = "55%",
 #| fig.align = "center"
 
-knitr::include_graphics("aepoleav.PNG")
+knitr::include_graphics("photos/aepoleav.PNG")
 
 ```
 
@@ -69,6 +68,248 @@ Further reading; [@aepo]
 
 \newpage
 
+
+# *Ailanthus altissima*
+
+## Common names; Ailanthus, Chinese sumac, Copal tree, Deerwort, Hardy age, Milk ipecac, Mist flower, Paradise-tree, Rich weed, Stinking sumac, Tree of Heaven, Varnish tree, White sanicle, White snakeroot
+
+```{r aial}
+#| fig.cap = "Ailanthus altissima leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/aial.PNG")
+
+```
+
+\newpage
+
+## *Ailanthus altissima* continued...
+
+```{r aial2}
+#| fig.cap = "Ailanthus altissima leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/aialleav.PNG")
+
+```
+
+\newpage
+
+## *Ailanthus altissima* continued...
+
+```{r aial3}
+#| fig.cap = "Ailanthus altissima bark and stem descriptions.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/aialbast.PNG")
+
+```
+
+Further reading; [@aial]
+
+\newpage
+
+
+# *Akebia quinata*
+
+## Common names; Tree of Heaven
+
+```{r akqu}
+#| fig.cap = "Akebia quinata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/akqu.PNG")
+
+```
+
+\newpage
+
+## *Akebia quinata* continued...
+
+```{r akqu2}
+#| fig.cap = "Akebia quinata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/akquleav.PNG")
+
+```
+
+\newpage
+
+## *Akebia quinata* continued...
+
+```{r akqu3}
+#| fig.cap = "Akebia quinata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/akqustem.PNG")
+
+```
+
+Further reading; [@akqu]
+
+\newpage
+
+# *Albizia julibrissin*
+
+## Common names; Mimosa, Persian silk tree, Pink silk tree, Silk tree
+
+```{r alju}
+#| fig.cap = "Albizia julibrissin leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alju.PNG")
+
+```
+
+\newpage
+
+## *Albizia julibrissin* continued...
+
+```{r alju2}
+#| fig.cap = "Albizia julibrissin leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/aljuleav.PNG")
+
+```
+
+\newpage
+
+## *Albizia julibrissin* continued...
+
+```{r alju3}
+#| fig.cap = "Albizia julibrissin leaf description continued.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/aljuleav2.PNG")
+
+```
+
+\newpage
+
+## *Albizia julibrissin* continued...
+
+```{r alju4}
+#| fig.cap = "Albizia julibrissin stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/aljustem.PNG")
+
+```
+
+\newpage
+
+## *Albizia julibrissin* continued...
+
+```{r alju5}
+#| fig.cap = "Albizia julibrissin bark description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/aljubark.PNG")
+
+```
+
+Further reading; [@alju]
+
+\newpage
+
+# *Alliaria petiolata*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Buddleja davidii*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r buda}
+#| fig.cap = "Buddleja davidii leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/buda.PNG")
+
+```
+
+\newpage
+
+## *Buddleja davidii* continued...
+
+```{r buda2}
+#| fig.cap = "Buddleja davidii leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/budaleav.PNG")
+
+```
+
+\newpage
+
+## *Buddleja davidii* continued...
+
+```{r buda3}
+#| fig.cap = "Buddleja davidii stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/budastem.PNG")
+
+```
+
+Further reading; [@buda]
+
+\newpage
 
 # *Celastrus orbiculatus*
 
@@ -79,7 +320,7 @@ Further reading; [@aepo]
 #| out.width = "100%",
 #| fig.align = "center"
 
-knitr::include_graphics("ceor.PNG")
+knitr::include_graphics("photos/ceor.PNG")
 
 ```
 
@@ -92,11 +333,269 @@ knitr::include_graphics("ceor.PNG")
 #| out.width = "45%",
 #| fig.align = "center"
 
-knitr::include_graphics("ceorleav.PNG")
+knitr::include_graphics("photos/ceorleav.PNG")
 
 ```
 
 Further reading; [@ceor]
+
+\newpage
+
+# *Clematis terniflora*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Dioscorea bulbifera*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Elaeagnus umbellata*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Enonymus alatus*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Euonymus fortunei*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Glechoma hederacea*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
 
 \newpage
 
@@ -109,7 +608,7 @@ Further reading; [@ceor]
 #| out.width = "65%",
 #| fig.align = "center"
 
-knitr::include_graphics("hehe.PNG")
+knitr::include_graphics("photos/hehe.PNG")
 
 ```
 
@@ -124,7 +623,7 @@ knitr::include_graphics("hehe.PNG")
 #| fig.show="hold"
 
 
-knitr::include_graphics("heheleav.PNG")
+knitr::include_graphics("photos/heheleav.PNG")
 
 ```
 
@@ -137,11 +636,54 @@ knitr::include_graphics("heheleav.PNG")
 #| out.width = "50%",
 #| fig.align = "center"
 
-knitr::include_graphics("hehepois.PNG")
+knitr::include_graphics("photos/hehepois.PNG")
 
 ```
 
 Further reading; [@hehe]
+
+\newpage
+
+# *Iris pseudacorus*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
 
 \newpage
 
@@ -154,7 +696,7 @@ Further reading; [@hehe]
 #| out.width = "100%",
 #| fig.align = "center"
 
-knitr::include_graphics("lija.PNG")
+knitr::include_graphics("photos/lija.PNG")
 
 ```
 
@@ -167,7 +709,7 @@ knitr::include_graphics("lija.PNG")
 #| out.width = "80%",
 #| fig.align = "center"
 
-knitr::include_graphics("lijapois.PNG")
+knitr::include_graphics("photos/lijapois.PNG")
 
 ```
 
@@ -180,7 +722,7 @@ knitr::include_graphics("lijapois.PNG")
 #| out.width = "55%",
 #| fig.align = "center"
 
-knitr::include_graphics("lijaleav.PNG")
+knitr::include_graphics("photos/lijaleav.PNG")
 
 ```
 
@@ -193,11 +735,355 @@ knitr::include_graphics("lijaleav.PNG")
 #| out.width = "75%",
 #| fig.align = "center"
 
-knitr::include_graphics("lijastem.PNG")
+knitr::include_graphics("photos/lijastem.PNG")
 
 ```
 
 Further reading; [@lija]
+
+\newpage
+
+# *Lonicera japonica*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Lunaria annua*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Microstegium vimineum*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Miscanthus sinese*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Myriophyllum aquaticum*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Nandina domestica*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Paulownia tomentosa*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Pennisetum alopecuroides*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
 
 \newpage
 
@@ -210,7 +1096,7 @@ Further reading; [@lija]
 #| out.width="75%",
 #| fig.align="center"
 
-knitr::include_graphics("pumo.PNG")
+knitr::include_graphics("photos/pumo.PNG")
 
 ```
 
@@ -223,7 +1109,7 @@ knitr::include_graphics("pumo.PNG")
 #| out.width="100%",
 #| fig.align="center"
 
-knitr::include_graphics("pumoedib.PNG")
+knitr::include_graphics("photos/pumoedib.PNG")
 
 ```
 
@@ -236,7 +1122,7 @@ knitr::include_graphics("pumoedib.PNG")
 #| out.width="55%",
 #| fig.align="center"
 
-knitr::include_graphics("pumoleav.PNG")
+knitr::include_graphics("photos/pumoleav.PNG")
 
 ```
 
@@ -249,12 +1135,55 @@ knitr::include_graphics("pumoleav.PNG")
 #| out.width="55%",
 #| fig.align="center"
 
-knitr::include_graphics("pumolo.PNG")
+knitr::include_graphics("photos/pumolo.PNG")
 
 ```
 
 
 Further reading; [@pumo]
+
+\newpage
+
+# *Pyrus calleryana*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
 
 \newpage
 
@@ -267,7 +1196,7 @@ Further reading; [@pumo]
 #| out.width = "65%",
 #| fig.align = "center"
 
-knitr::include_graphics("reja.PNG")
+knitr::include_graphics("photos/reja.PNG")
 
 ```
 
@@ -280,7 +1209,7 @@ knitr::include_graphics("reja.PNG")
 #| out.width = "50%",
 #| fig.align = "center"
 
-knitr::include_graphics("rejaleav.PNG")
+knitr::include_graphics("photos/rejaleav.PNG")
 
 ```
 
@@ -293,7 +1222,7 @@ knitr::include_graphics("rejaleav.PNG")
 #| out.width = "100%",
 #| fig.align = "center"
 
-knitr::include_graphics("rejastem.PNG")
+knitr::include_graphics("photos/rejastem.PNG")
 
 ```
 
@@ -310,7 +1239,7 @@ Further reading; [@reja]
 #| out.width = "100%",
 #| fig.align = "center"
 
-knitr::include_graphics("romu.PNG")
+knitr::include_graphics("photos/romu.PNG")
 
 ```
 
@@ -323,7 +1252,7 @@ knitr::include_graphics("romu.PNG")
 #| out.width = "60%",
 #| fig.align = "center"
 
-knitr::include_graphics("romuleav.PNG")
+knitr::include_graphics("photos/romuleav.PNG")
 ```
 
 \newpage
@@ -335,12 +1264,141 @@ knitr::include_graphics("romuleav.PNG")
 #| out.width = "100%",
 #| fig.align = "center"
 
-knitr::include_graphics("romustem.PNG")
+knitr::include_graphics("photos/romustem.PNG")
 
 
 ```
 
 Further reading; [@romu]
+
+\newpage
+
+# *Spiraea japonica*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Vinca major* and *V. minor*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
+
+\newpage
+
+# *Wisteria sinensis*
+
+## Common names; Garlic Mustard, Garlicwort, Hedge garlic, Jack-in-the-bush, Mustard root, Poor man's mustard, Sauce-alone
+
+```{r alpe}
+#| fig.cap = "Alliaria petiolata leaves photo.",
+#| out.width = "100%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpe.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe2}
+#| fig.cap = "Alliaria petiolata leaf description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpeleav.PNG")
+
+```
+
+\newpage
+
+## *Alliaria petiolata* continued...
+
+```{r alpe3}
+#| fig.cap = "Alliaria petiolata stem description.",
+#| out.width = "55%",
+#| fig.align = "center"
+
+knitr::include_graphics("photos/alpestem.PNG")
+
+```
+
+Further reading; [@alpe]
 
 \newpage
 
